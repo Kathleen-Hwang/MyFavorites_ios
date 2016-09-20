@@ -15,6 +15,9 @@
 		049C7D941D9104F9002F9EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049C7D921D9104F9002F9EFA /* LaunchScreen.storyboard */; };
 		049C7D9F1D9104F9002F9EFA /* MyFavoritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C7D9E1D9104F9002F9EFA /* MyFavoritesTests.swift */; };
 		049C7DAA1D9104F9002F9EFA /* MyFavoritesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C7DA91D9104F9002F9EFA /* MyFavoritesUITests.swift */; };
+		049C7DB81D910672002F9EFA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C7DB71D910672002F9EFA /* Favorite.swift */; };
+		049C7DBA1D9110BE002F9EFA /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C7DB91D9110BE002F9EFA /* FavoriteTableViewCell.swift */; };
+		049C7DBE1D911789002F9EFA /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C7DBD1D911789002F9EFA /* FavoriteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		049C7DA51D9104F9002F9EFA /* MyFavoritesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavoritesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049C7DA91D9104F9002F9EFA /* MyFavoritesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoritesUITests.swift; sourceTree = "<group>"; };
 		049C7DAB1D9104F9002F9EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049C7DB71D910672002F9EFA /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		049C7DB91D9110BE002F9EFA /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		049C7DBD1D911789002F9EFA /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,12 @@
 				049C7D891D9104F9002F9EFA /* FirstViewController.swift */,
 				049C7D8B1D9104F9002F9EFA /* SecondViewController.swift */,
 				049C7D8D1D9104F9002F9EFA /* Main.storyboard */,
+				049C7DB91D9110BE002F9EFA /* FavoriteTableViewCell.swift */,
 				049C7D901D9104F9002F9EFA /* Assets.xcassets */,
 				049C7D921D9104F9002F9EFA /* LaunchScreen.storyboard */,
 				049C7D951D9104F9002F9EFA /* Info.plist */,
+				049C7DB71D910672002F9EFA /* Favorite.swift */,
+				049C7DBD1D911789002F9EFA /* FavoriteTableViewController.swift */,
 			);
 			path = MyFavorites;
 			sourceTree = "<group>";
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				049C7D8C1D9104F9002F9EFA /* SecondViewController.swift in Sources */,
+				049C7DB81D910672002F9EFA /* Favorite.swift in Sources */,
 				049C7D881D9104F9002F9EFA /* AppDelegate.swift in Sources */,
 				049C7D8A1D9104F9002F9EFA /* FirstViewController.swift in Sources */,
+				049C7DBA1D9110BE002F9EFA /* FavoriteTableViewCell.swift in Sources */,
+				049C7DBE1D911789002F9EFA /* FavoriteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
