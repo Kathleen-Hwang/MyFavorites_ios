@@ -25,10 +25,6 @@ class FavoriteTableViewCell: UITableViewCell {
     }
 
     @IBAction func favoriteStateChanged(sender: UISwitch) {
-        if sender.on {
-            // on
-        } else {
-            // off
-        }
+        MyStore.updateFavorites(nameLabel.text!, on: sender.on)
     }
 }
